@@ -1,0 +1,91 @@
+[
+  {
+    "ContainingType": "HalakAPI.Controllers.HalakController",
+    "Method": "Post",
+    "RelativePath": "Halak",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "hal",
+        "Type": "HalakAPI.Models.Halak",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HalakAPI.Controllers.HalakController",
+    "Method": "Put",
+    "RelativePath": "Halak",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hal",
+        "Type": "HalakAPI.Models.Halak",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HalakAPI.Controllers.HalakController",
+    "Method": "Delete",
+    "RelativePath": "Halak",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HalakAPI.Controllers.HalakController",
+    "Method": "FajMeretTo",
+    "RelativePath": "Halak/FajMeretTo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HalakAPI.Controllers.HorgaszokController",
+    "Method": "GetAll",
+    "RelativePath": "Horgaszok/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HalakAPI.Controllers.HorgaszokController",
+    "Method": "GetById",
+    "RelativePath": "Horgaszok/ById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
